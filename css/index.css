@@ -1,0 +1,291 @@
+/* Global reset */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: black;
+  overflow-x: hidden;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  margin: 50px 0 20px 0;
+}
+
+nav ul li {
+  margin-right: 90px;
+}
+
+img.logo {
+  width: 200px;
+}
+
+nav ul li a {
+  color: #EC9524;
+  text-transform: uppercase;
+}
+
+/* --- TOGGLE BUTTON --- */
+.menu-btn {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #EC9524;
+  cursor: pointer;
+}
+
+/* ------- MOBILE / TABLET ------- */
+@media (max-width: 900px) {
+  nav {
+    grid-template-columns: 1fr auto;
+  }
+
+  .menu-btn {
+    display: block;
+    margin-right: 20px;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: black;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    display: none;
+  }
+
+  nav ul li {
+    margin: 15px 0;
+  }
+
+  nav ul.show {
+    display: block;
+  }
+}
+
+
+.landing-section
+{
+  padding: 200px 0 0 100px;
+}
+
+.landing-section h1
+{
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.landing-section P
+{
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.button-services button
+{
+  background-color: rgba(255, 255, 255, 0.201);
+  backdrop-filter: blur(30px);
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.button-services button:hover{
+ background-color: #603600;
+}
+
+.button-services button a
+{
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.stratagy
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  gap: 70px;
+  padding-top: 50px;
+}
+
+.statement
+{
+  background:#603600;
+  backdrop-filter: blur(20px);
+  width: 500px;
+  height: inherit;;
+  border-radius: 5px;
+  padding: 0 40px 0 40px;
+}
+
+.statement p
+{
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 15px;
+  color: white;
+  font-weight: lighter;
+}
+
+h4
+{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+  color: white;
+}
+
+h2
+{
+  text-align: center;
+  color:#603600;
+  padding: 50px 0 20px 0;
+}
+
+.key-services
+{
+  display: block;
+  align-content: center;
+  justify-content: center;
+  background-color: ivory;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.list-of-services
+{
+  background-color:#603600;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  margin: 0 10% 30px 10%;
+  border-radius: 4px;
+  padding: 30px;
+} 
+
+.list-of-services p
+{
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  
+}
+
+.list-of-services button{
+  background: white;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.list-of-services button:hover
+{
+ border: 1px solid white;
+ background: rgba(255, 255, 255, 0);
+}
+
+.list-of-services button a{
+  color: #603600;
+  font-size: 90%;
+  text-transform: uppercase;
+  text-align: center
+}
+
+.list-of-services button a:hover{
+  color: white;
+}
+
+.why-us li{
+  list-style-type:circle;
+
+     text-align:center;
+
+     color:white;
+
+     padding-top: 20px;
+     
+     font-size: 20px;
+     
+     font-weight:lighter;
+     
+     text-transform: capitalize;
+}
+
+footer{
+  background-color: #603600;
+  padding: 20px 0 0 0;
+}
+.address{
+  color:rgb(255, 255, 255);
+  font-weight:lighter;
+  line-height: 30px;
+  padding: 0 0 20px 50px;
+}
+.address a{
+  color:rgb(255, 255, 255);
+  font-weight: lighter;
+}
+footer p{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding: 5px 0 5px 0;
+  font-weight:lighter;
+  text-align: center;
+}
+.membership
+{
+  background-color: whitesmoke;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+}
+.text
+{
+ text-align: center;
+ padding: 10px 80px;
+}
+.a button{ 
+  color: black;
+  background-color: white;
+  border: 1 px solid  black;
+}
+@media (max-width: 768px){
+  .landing-section h1{
+    font-size: 20px;
+  }
+  .landing-section P{
+    font-size: 20px;
+  }
+  .landing-section
+ {
+  padding: 200px 0 0 50px;
+ }
+ .stratagy
+ {
+  display: grid;
+ }
+ .statement{
+   width: 300px;
+ }
+
+}

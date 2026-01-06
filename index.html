@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Home</title>
+</head>
+<body>
+
+    <!-- navigation bar -->
+<nav class="navbar">
+  <img class="logo" src="images/logo.png">
+
+  <!-- Toggle button -->
+  <button class="menu-btn" id="menuBtn">
+    ☰
+  </button>
+
+  <ul id="navMenu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="membership.html">Membership</a></li>
+    <li><a href="#site-footer">Contact</a></li>
+  </ul>
+</nav>
+
+
+   <!--main body-->
+   
+   <header class="landing-section"
+    style=
+    "background-image: url('images/landing.jpg');
+
+    background-size: cover; 
+
+    height: 500px;
+
+     width:100%;"
+
+     >
+
+     <h1>
+       Reanaissance roadside assistance
+     </h1>
+
+     <p>
+       We offer variety of services for motor recovery
+    </p>
+
+  <div class="button-services">
+
+      <button>
+        <a href="services.html">
+          check services
+        </a>
+      </button>
+
+      <button>
+        <a href="membership.html">
+          Membership
+        </a>
+      </button>
+
+    </div>
+
+   </header>
+
+<!--contains mission statemen and  vision statement-->
+  <div class="stratagy">
+
+    <div class="statement">
+
+      <h4>
+        mission
+      </h4>
+
+      <p>
+        Providing rapid ,reliable help, ensuring customer safety and 
+        peace of mind and delivering professional, compassionate service
+         to get drivers back on the road quickly, emphasizing trust, 
+         customer well-being as core values.
+      </p>
+
+    </div>
+
+    <div class="statement">
+
+      <h4>
+        vision
+      </h4>
+
+      <p>
+        Focuses on being the most trusted, reliable and innovative partner for drivers,
+         insuring peace of mind by providing fast compassionate help for emergencies,
+          keeping people moving and enhancing overall road safety through excellence service 
+          and technology.
+      </p>
+      
+    </div>
+
+  </div>
+
+
+  <!--this contain key services-->
+
+  <div class="key-services">
+
+    <h2>
+      Roadside Assistance
+    </h2>
+
+    <div class="list-of-services">
+
+      <p>
+        Towing to a nearest garage or home
+      </p>
+
+      <button>
+        <a href="services.html#towing">
+        check out
+      </a>
+    </button>
+
+  </div>
+
+    <div class="list-of-services">
+
+      <p>
+        Recovery in time of car accidents
+      </p>
+
+      <button>
+        <a href="services.html#recovery">
+        check out
+      </a>
+    </button>
+
+    </div>
+
+    <div class="list-of-services">
+
+      <p>
+        Car transportation
+      </p>
+
+      <button>
+        <a href="services.html#car-tpt">
+        check out
+      </a>
+    </button>
+
+    </div>
+
+    <div class="list-of-services">
+
+      <p>
+        Flat tire change
+      </p>
+
+      <button>
+        <a href="services.html#flat-tire">
+        check out
+      </a>
+    </button>
+
+    </div>
+
+    <div class="list-of-services">
+
+      <p>
+        Electric Battery jumps
+      </p>
+
+      <button>
+        <a href="services.html#jumpers">
+        check out
+      </a>
+    </button>
+
+    </div>
+
+    <div class="list-of-services">
+
+      <p>
+        Basic mechanical tasks which include engine oil change
+      </p>
+
+      <button>
+        <a href="services.html#oil">
+        check out
+      </a>
+    </button>
+
+    </div>
+  
+  </div>
+
+  <!--this section contain why choosing us-->
+
+  <div 
+    class="why-us";
+
+  style=
+  "background-image: url('images/Why-choosing-us-background.jpg');
+
+  background-size: cover; 
+
+  height: 400px;
+
+   width:100%;"
+
+  >
+
+    <h3
+    style="
+    color:white;
+
+    text-align:center;
+
+    padding-top: 100px;"
+
+    >
+      why choosing us?
+    </h3>
+
+    <li>
+     24/7 availability
+  </li>
+
+  <li>
+    rapid response time
+ </li>
+
+ <li>
+  experienced and trained staff
+</li>
+
+<li>
+  wide coverage area
+</li>
+
+  </div>
+  
+  <!--footer section-->
+
+  <footer id="site-footer">
+
+    <div class="address">
+      Renaissance Roadside Assistance
+      <br>
+      P.O BOx 2011
+      <br>
+      Blantyre
+      <br>
+
+    <a 
+    href="mailto:renaissancelogistics@yahoo.com">
+      Email: renaissancelogistics@yahoo.com
+    </a>
+    <br>
+
+    <a 
+    href="tel:+265-999661594">
+     Call: (0) 999 66 15 94
+    </a>
+
+    <a 
+    href="tel:+265-888661594">
+     / (0) 888 66 15 94
+    </a>
+    <br>
+
+    <a href="mailto:highplusdigital@gmail.com";>
+      @highplusdigital 2026
+    </a>
+
+  </div>
+
+    <p>
+      Copyright &copy;2026, all rights Reserved
+    </p>
+
+  </footer>
+  <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const navMenu = document.getElementById("navMenu");
+  
+    menuBtn.addEventListener("click", () => {
+      navMenu.classList.toggle("show");
+    });
+  </script>
+  
+</body>
+</html>
