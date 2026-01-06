@@ -99,6 +99,7 @@ h1
 
 .services-content{
   width:350px;
+  height: 250px;
   text-align: center;
   overflow: hidden;
 }
@@ -158,5 +159,8 @@ footer p{
   }
   .services-content{
     width:350px;
+  }
+  .services-content p{
+    font-size: 14px;
   }
 }
