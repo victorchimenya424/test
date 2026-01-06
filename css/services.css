@@ -153,4 +153,7 @@ footer p{
   .services{
     display: grid;
   }
+  .services-content{
+    width:300px;
+  }
 }
